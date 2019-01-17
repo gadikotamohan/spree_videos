@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.1'
+  s.add_dependency 'spree_core', '>= 3.3'
   s.add_dependency 'youtube_it', '~> 2.4.0'
-
+  s.add_dependency 'yt', '~> 0.28.0'
   # test suite
   s.add_development_dependency 'capybara', '~> 1.1'
   s.add_development_dependency 'factory_girl_rails', '~> 3.0.0'
